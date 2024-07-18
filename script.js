@@ -18,7 +18,8 @@ function getWeather() {
     })
     .catch(error =>{
         console.error('Error fetching current weather data', error);
-       
+        alert('Error fetching hourly forecast data. Please try again.');
+
     });
 
 
